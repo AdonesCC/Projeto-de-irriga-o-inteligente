@@ -7,8 +7,8 @@
 
    OBS: Pode-se utilizar tanto a placa ESP8266 quanto a ESP32,
    poré m, deve-se modificar as configurações de placas no aplicativo Blynk.io.
-   Lembre-se de descomentar as linhas de código abaixo e comentar as que não estão.
-*/
+ */
+
 #include<ESP8266WiFi.h>
 #include<BlynkSimpleEsp8266.h>
 
@@ -17,9 +17,9 @@
 #define echo D7
 
 //credenciais do blynk e da rede wifi
-char auth[] = "R4kP8BOe2oksNangSC1lbpMOehStMLgW";
-char ssid[] = "Adones";
-char pass[] = "Luna01052001";
+char auth[] = " "; //adicionar o token fornecido pela plataforma blynk
+char ssid[] = " "; //adicionar o nome da rede WiFi
+char pass[] = "Luna01052001"; //adicionar a senha da rede WiFi
 
 //configurações do pino do réle
 uint8_t pinRelay = D0;
