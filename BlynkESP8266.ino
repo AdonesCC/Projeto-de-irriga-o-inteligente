@@ -19,7 +19,7 @@
 //credenciais do blynk e da rede wifi
 char auth[] = " "; //adicionar o token fornecido pela plataforma blynk
 char ssid[] = " "; //adicionar o nome da rede WiFi
-char pass[] = "Luna01052001"; //adicionar a senha da rede WiFi
+char pass[] = " "; //adicionar a senha da rede WiFi
 
 //configurações do pino do réle
 uint8_t pinRelay = D0;
