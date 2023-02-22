@@ -17,8 +17,8 @@
 #define trig 19
 #define echo 21
 
-#define BLYNK_TEMPLATE_ID "TMPL8q2Fbbg0"
-#define BLYNK_TEMPLATE_NAME "ESP32 Automação"
+#define BLYNK_TEMPLATE_ID " " //inserir o ID fornecido pela plataforma Blynk
+#define BLYNK_TEMPLATE_NAME " " //inserir o template name fornecido pela plataforma Blynk
 #define BLYNK_AUTH_TOKEN "  " //inserir o token fornecido pela plataforma Blynk
 
 //credenciais da rede wifi
