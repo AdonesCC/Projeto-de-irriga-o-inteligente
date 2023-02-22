@@ -19,11 +19,11 @@
 
 #define BLYNK_TEMPLATE_ID "TMPL8q2Fbbg0"
 #define BLYNK_TEMPLATE_NAME "ESP32 Automação"
-#define BLYNK_AUTH_TOKEN "8W-EmdT9jghlcmCPXci4BD8J4zlWC1Aw"
+#define BLYNK_AUTH_TOKEN "  " //inserir o token fornecido pela plataforma Blynk
 
 //credenciais da rede wifi
-char ssid[] = "Adones";
-char pass[] = "Luna01052001";
+char ssid[] = " "; //inserir o nome da rede WiFi
+char pass[] = " "; //inserir a senha da rede WiFi
 
 //configurações do pino do réle
 uint8_t pinRelay = 14;
